@@ -1,0 +1,19 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "EmptyDB.Migrations Class Library",
+  "authors": [ "lasrol" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { }
+  },
+  "dependencies": {
+    "EmptyDB.Data": "1.0.0-*",
+    "EntityFramework.Commands": "7.0.0-rc1-final",
+    "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final"
+  },
+  "commands": {
+    "ef": "EntityFramework.Commands"
+  }
+}

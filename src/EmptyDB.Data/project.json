@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "EmptyDB.Data Class Library",
+  "authors": [ "lasrol" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "EmptyDB.Domain": "1.0.0-*",
+    "EntityFramework.Core": "7.0.0-rc1-final",
+    "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final"
+  },
+
+  "frameworks": {
+    "dnx451": {  }
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "EmptyDB.Domain Class Library",
+  "authors": [ "lasrol" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}
