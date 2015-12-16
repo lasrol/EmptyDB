@@ -1,0 +1,20 @@
+﻿@model EmptyDB.Models.LoginModel
+<div>
+    <h3>Login</h3>
+    <p>Default login: test@test.com / Test123!</p>
+    <form method="POST" asp-controller="Account" asp-action="Login" asp-antiforgery="true">
+        <div>
+            <label asp-for="@Model.Username"></label>
+            <input asp-for="@Model.Username" />
+        </div>
+        <div>
+            <label asp-for="@Model.Password"></label>
+            <input asp-for="@Model.Password" />
+        </div>
+        <div>
+            <label asp-for="@Model.RememberMe"></label>
+            <input asp-for="@Model.RememberMe"/>
+        </div>
+        <input type="submit" value="Login"/>
+    </form>
+</div>

@@ -1,0 +1,16 @@
+﻿
+
+<div>
+
+    <h2>Homepage!!</h2>
+    <ul>
+        <li><a asp-action="Login" asp-controller="Account">Login</a></li>
+        <li><a asp-action="ForgotPassword" asp-controller="Account">Forgot password</a></li>
+        <li><a asp-action="Index" asp-controller="Account">Profile</a></li>
+        <li>
+            <form method="POST" asp-action="Logout" asp-controller="Account" asp-antiforgery="true">
+                <input type="submit" value="logout" />
+            </form>
+        </li>
+    </ul>
+</div>

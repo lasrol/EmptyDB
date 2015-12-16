@@ -14,7 +14,7 @@ namespace Nettgrav.Data
         public void ConfigureServices(IServiceCollection services)
         {
             //TODO: Get from config
-            services.AddEntityFramework().AddSqlServer().AddDbContext<MyContext>(o => o.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=EmptyDB;Trusted_Connection=True;"));
+            services.AddEntityFramework().AddSqlServer().AddDbContext<MyContext>(o => o.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=EmptyDB;Trusted_Connection=True;").MigrationsAssembly("EmptyDB.Migrations"));
         }
 
         public void Configure(IApplicationBuilder app)

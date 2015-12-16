@@ -1,12 +1,14 @@
-﻿{
+{
   "version": "1.0.0-*",
   "description": "EmptyDB.Domain Class Library",
   "authors": [ "lasrol" ],
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
-
   "frameworks": {
     "dnx451": { }
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final"
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "description": "EmptyDB.Data Class Library",
   "authors": [ "lasrol" ],
@@ -8,7 +8,8 @@
   "dependencies": {
     "EmptyDB.Domain": "1.0.0-*",
     "EntityFramework.Core": "7.0.0-rc1-final",
-    "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final"
+    "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+    "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final"
   },
 
   "frameworks": {

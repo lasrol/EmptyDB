@@ -1,0 +1,20 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+<div>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h2>@User.Identity.Name is logged in</h2>     
+    }
+</div>
+<div>
+    @RenderBody()
+</div>
+</body>
+</html>
